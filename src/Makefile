@@ -22,8 +22,8 @@ MCU = atmega328p
 F_CPU = 16000000
 
 ifndef DEVICE_ID
-$(DEVICE_ID is set to 1)
-DEVICE_ID=1
+
+DEVICE_ID=0x20
 endif
 
 # avr programmer (and port if necessary)
